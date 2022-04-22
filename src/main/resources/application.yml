@@ -15,7 +15,7 @@ spring:
     gateway:
       routes:
         - id: lecture-service
-          uri: http://localhost:8071/lecture
+          uri: http://localhost:8071
           predicates: #조건절
             - Path=/lecture/**
           filters:
@@ -23,7 +23,7 @@ spring:
 #            - AddResponseHeader=first-response, first-response-header2
             - CustomFilter
         - id: member-service
-          uri: http://localhost:8072/member
+          uri: http://localhost:8072
           predicates: #조건절
             - Path=/member/**
           filters:
@@ -31,7 +31,7 @@ spring:
 #            - AddResponseHeader=second-response, second-response-header2
             - CustomFilter
         - id: board-service
-          uri: http://localhost:8073/board
+          uri: http://localhost:8073
           predicates: #조건절
             - Path=/board/**
           filters:
