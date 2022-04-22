@@ -21,6 +21,7 @@ spring:
           filters:
 #            - AddRequestHeader=first-request, first-request-header2
 #            - AddResponseHeader=first-response, first-response-header2
+            - CustomFilter
         - id: member
           uri: http://localhost:8072/
           predicates: #조건절
@@ -28,6 +29,7 @@ spring:
           filters:
 #            - AddRequestHeader=second-request, second-request-header2
 #            - AddResponseHeader=second-response, second-response-header2
+            - CustomFilter
         - id: board
           uri: http://localhost:8073/
           predicates: #조건절
@@ -35,3 +37,4 @@ spring:
           filters:
 #            - AddRequestHeader=second-request, second-request-header2
 #            - AddResponseHeader=second-response, second-response-header2
+            - CustomFilter
