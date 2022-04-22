@@ -8,6 +8,15 @@
 ### [BoardeDomain Server](https://github.com/HayanYoo/bithumb-onlineLecture-board)
 - Server port = 8073
 
+## Spec
+1. SpringBoot 2.6.7
+2. Java 11
+3. WebFlux
+4. Functional Endpoint
+5. WebClient
+6. Spring Cloud Routing GateWay
+<br><br>
+
 ## 온라인 강의 학습, 커뮤니티를 만든다면?
 ### Step 1 - 기능 정의 (학생)
 1. 강의를 수강하고자 하는 사람은 ‘학생’ 으로 회원 가입이 가능하다
