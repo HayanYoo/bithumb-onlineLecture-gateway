@@ -1,4 +1,6 @@
 # 빗썸 2주차 과제
+### [Gateway Server](https://github.com/HayanYoo/bithumb-onlineLecture-gateway)
+- Server port = 8070
 ### [LectureDomain Server](https://github.com/HayanYoo/-bithumb-onlineLecture-lecture)
 - Server port = 8071
 ### [MemberDomain Server](https://github.com/HayanYoo/bithumb-onlineLecture-member)
