@@ -59,7 +59,7 @@
 * 게시판 관리
 1. 작성 및 열람: 모두
 2. 관리: 사이트 운영자
- 
+ <br><br><br><br>
 ### 도메인 모델 및 Bounded Context Diagram
 ![Domain object modeling (1)](https://user-images.githubusercontent.com/73471529/164623080-40f8659f-afb4-481e-ba24-ee0e6cdb9592.png)
 
