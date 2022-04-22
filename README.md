@@ -1,4 +1,11 @@
 # 빗썸 2주차 과제
+### [LectureDomain Server](https://github.com/HayanYoo/-bithumb-onlineLecture-lecture)
+- Server port = 8071
+### [MemberDomain Server](https://github.com/HayanYoo/bithumb-onlineLecture-member)
+- Server port = 8072
+### [BoardeDomain Server](https://github.com/HayanYoo/bithumb-onlineLecture-board)
+- Server port = 8073
+
 ## 온라인 강의 학습, 커뮤니티를 만든다면?
 ### Step 1 - 기능 정의 (학생)
 1. 강의를 수강하고자 하는 사람은 ‘학생’ 으로 회원 가입이 가능하다
