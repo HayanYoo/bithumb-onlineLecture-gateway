@@ -1,6 +1,7 @@
 package com.example.onlinelecturegateway.config;
 
 
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
@@ -34,7 +35,11 @@ public class CustomFilter extends AbstractGatewayFilterFactory<CustomFilter.Conf
         });
     }
 
+    @Data
     public static class Config{
         // configuration 정보 입력
+        private String Message;
+        private boolean preLogger;
+        private boolean postLogger;
     }
 }
